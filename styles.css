@@ -1,88 +1,88 @@
 :root {
-    --font-color: hsl(0, 0%, 100%);
-    --font-size: 14px;
-    --place-color: hsl(75, 94%, 57%);
-    --background-color: hsl(0, 0%, 8%);
-    --button-background: hsl(0, 0%, 20%);
-    --card-background: hsl(0, 0%, 12%);
+  --font-color: hsl(0, 0%, 100%);
+  --font-size: 14px;
+  --place-color: hsl(75, 94%, 57%);
+  --background-color: hsl(0, 0%, 8%);
+  --button-background: hsl(0, 0%, 20%);
+  --card-background: hsl(0, 0%, 12%);
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
 }
 
 #container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1440px;
-    height: 100dvh;
-    background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  height: 100dvh;
+  background-color: var(--background-color);
 }
 
 #container > .card-wrapper {
-    border-radius: 15px;
-    background-color: var(--card-background);
-    padding: 30px;
+  border-radius: 15px;
+  background-color: var(--card-background);
+  padding: 30px;
 }
 
 .card-wrapper > .intro-wrapper {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .intro-wrapper figure > img {
-    margin-bottom: 20px;
-    border-radius: 50%;
+  margin-bottom: 20px;
+  border-radius: 50%;
 }
 
 .intro-wrapper > h1 {
-    font-weight: 600;
-    color: var(--font-color);
-    font-size: 25px;
+  font-weight: 600;
+  color: var(--font-color);
+  font-size: 25px;
 }
 
 .intro-wrapper > h2 {
-    font-weight: 600;
-    color: var(--place-color);
-    margin-top: 7px;
-    font-size: 15px;
+  font-weight: 600;
+  color: var(--place-color);
+  margin-top: 7px;
+  font-size: 15px;
 }
 
 .intro-wrapper > p {
-    font-weight: 400;
-    color: var(--font-color);
-    margin-top: 23px;
-    font-size: var(--font-size);
+  font-weight: 400;
+  color: var(--font-color);
+  margin-top: 23px;
+  font-size: var(--font-size);
 }
 
 .card-wrapper > .links-wrapper {
-    gap: 13px;
-    margin-top: 1.5rem;
-    display: flex;
-    flex-direction: column;
+  gap: 13px;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .links-wrapper a {
-    font-weight: 600;
-    border-radius: 6px;
-    text-align: center;
-    padding: 12px 5rem;
-    background-color: var(--button-background);
-    color: var(--font-color);
+  font-weight: 600;
+  border-radius: 6px;
+  text-align: center;
+  padding: 12px 5rem;
+  background-color: var(--button-background);
+  color: var(--font-color);
 }
 
-.attribution { 
-    padding: 10px 0;
-    font-size: var(--font-size); 
-    text-align: center; 
+.attribution {
+  padding: 10px 0;
+  font-size: var(--font-size);
+  text-align: center;
 }
-    .attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
